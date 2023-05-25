@@ -58,6 +58,9 @@ jobs:
       with:
        distribution: 'adopt'
        java-version: '17'
+       
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v2
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
